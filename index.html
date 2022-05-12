@@ -19,12 +19,12 @@ body {
 }
 
     </style>
-	<title>KANAC Proof-Reading Pricing</title>	
+	<title>KANAC Editing Pricing PLATFORM</title>	
 </head>
 <body>
 
 <div class="wrapper">
-  <h1>KANAC PROOF-READING PRICING PLATFORM</h1>
+  <h1>KANAC EDITING PRICING PLATFORM</h1>
 </div>
 
 <div class="wrapper">
@@ -36,8 +36,8 @@ body {
     <div class="col-sm-10">
      <select class="form-control form-control-lg" id="priceType" onchange="getPrice()">
       <option value="notype" selected>--Choose pricing type--</option>
-  <option value="std">Standard Proof-Reading Service</option>
-  <option value="exp">Express Proof-Reading Service</option>
+  <option value="std">Standard Editing Service</option>
+  <option value="exp">Express Editing Service</option>
 </select>
     </div>
   </div>
@@ -108,12 +108,12 @@ w = words/1000;
 function daryFormula(type,words,mWords){
 //Property of Daria Yasafova Vasilievna
 if (type=="std"){
-var highest_price = 1.2;
-var lowest_price=1.15;
+var highest_price = 1.5;
+var lowest_price=1.45;
 }
 else if(type=="exp"){
-var highest_price = 2.4;
-var lowest_price=2.3;
+var highest_price = 3.0;
+var lowest_price=2.9;
 }
 var coef= 1/(highest_price-lowest_price);
 var steepness = 2;
