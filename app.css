@@ -1,0 +1,32 @@
+html { font-size: 100%;  }
+body { 
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+
+}
+.wrapper {
+ margin-top: 30px;
+  max-width:75%;
+    background-color: aliceblue;
+    height: 100%;
+    aspect-ratio: 1/1;
+  
+}
+
+.form {
+    width:100%;
+    clear:both;
+    padding: 50px;
+}
+
+.highlight{
+background-color:rgb(175, 209, 240);     
+}
